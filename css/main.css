@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,700, 900);
+
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -10,11 +12,15 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -279,4 +285,55 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+html,
+body,
+.top,
+section,
+main
+{height: 100%}
+
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+header {
+    background: #3D8EB9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    background: #E6DCDB;
+    
+}
+
+.top {
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+}
+
+.central-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.score {
+    font-size: 5em;
+}
+
+.dark{
+    background-color: black;
 }
